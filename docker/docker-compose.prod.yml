@@ -1,0 +1,22 @@
+name: anythingllm-demo
+networks:
+  anything-llm-demo:
+    driver: bridge
+services:
+  anything-llm:
+    container_name: anythingllm_demo
+    image: tuximanager/tuxi:latest
+    cap_add:
+      - SYS_ADMIN
+    volumes:
+      - "./.env:/app/server/.env"
+      - "./storage:/app/server/storage"
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    networks:
+      - anything-llm-demo
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

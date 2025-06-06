@@ -1,12 +1,12 @@
-name: anythingllm-dentist
-
+# docker-compose.local.yml
+# For local development - builds from source
+name: anythingllm-local
 networks:
-  anything-llm-dentist:
+  anything-llm-local:
     driver: bridge
-
 services:
   anything-llm:
-    container_name: anythingllm_dentist
+    container_name: anythingllm_local
     build:
       context: ../.
       dockerfile: ./docker/Dockerfile
@@ -20,11 +20,10 @@ services:
       - "./storage:/app/server/storage"
     user: "${UID:-1000}:${GID:-1000}"
     ports:
-      - "3002:3001"
+      - "3001:3001"
     env_file:
       - .env
     networks:
-      - anything-llm-dentist
+      - anything-llm-local
     extra_hosts:
       - "host.docker.internal:host-gateway"
-
