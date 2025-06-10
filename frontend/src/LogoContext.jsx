@@ -1,8 +1,8 @@
 import { createContext, useEffect, useState } from "react";
-import AnythingLLM from "./media/logo/anything-llm.png";
-import AnythingLLMDark from "./media/logo/anything-llm-dark.png";
-import DefaultLoginLogoLight from "./media/illustrations/login-logo.svg";
-import DefaultLoginLogoDark from "./media/illustrations/login-logo-light.svg";
+import AnythingLLM from "./media/logo/tuxibot-logo.png";
+import AnythingLLMDark from "./media/logo/tuxibot-logo.png";
+import DefaultLoginLogoLight from "./media/illustrations/just-tuxi.png";
+import DefaultLoginLogoDark from "./media/illustrations/just-tuxi.png";
 import System from "./models/system";
 
 export const REFETCH_LOGO_EVENT = "refetch-logo";
@@ -22,7 +22,7 @@ export function LogoProvider({ children }) {
       const { isCustomLogo, logoURL } = await System.fetchLogo();
       if (logoURL) {
         setLogo(logoURL);
-        setLoginLogo(isCustomLogo ? logoURL : DefaultLoginLogo);
+        setLoginLogo(DefaultLoginLogo); // custom logo baked into login page
         setIsCustomLogo(isCustomLogo);
       } else {
         localStorage.getItem("theme") !== "default"

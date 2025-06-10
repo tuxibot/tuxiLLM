@@ -295,6 +295,8 @@ const SidebarOptions = ({ user = null, t }) => (
         <Option
           btnText="Community Hub"
           icon={<Globe className="h-5 w-5 flex-shrink-0" />}
+          user={user}
+          hidden={user.role !== "admin"}
           childOptions={[
             {
               btnText: "Explore Trending",
@@ -320,24 +322,25 @@ const SidebarOptions = ({ user = null, t }) => (
           btnText={t("settings.customization")}
           icon={<PencilSimpleLine className="h-5 w-5 flex-shrink-0" />}
           user={user}
+          hidden={user.role !== "admin"}
           childOptions={[
             {
               btnText: t("settings.interface"),
               href: paths.settings.interface(),
               flex: true,
-              roles: ["admin", "manager"],
+              roles: ["admin"],
             },
             {
               btnText: t("settings.branding"),
               href: paths.settings.branding(),
               flex: true,
-              roles: ["admin", "manager"],
+              roles: ["admin"],
             },
             {
               btnText: t("settings.chat"),
               href: paths.settings.chat(),
               flex: true,
-              roles: ["admin", "manager"],
+              roles: ["admin"],
             },
           ]}
         />
@@ -345,6 +348,8 @@ const SidebarOptions = ({ user = null, t }) => (
           btnText={t("settings.tools")}
           icon={<Toolbox className="h-5 w-5 flex-shrink-0" />}
           user={user}
+          hidden={user.role !== "admin"}
+          roles
           childOptions={[
             {
               hidden: !canViewChatHistory,
@@ -381,7 +386,7 @@ const SidebarOptions = ({ user = null, t }) => (
               btnText: t("settings.browser-extension"),
               href: paths.settings.browserExtension(),
               flex: true,
-              roles: ["admin", "manager"],
+              roles: ["admin"],
             },
           ]}
         />

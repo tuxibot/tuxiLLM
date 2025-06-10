@@ -7,7 +7,7 @@ const TRANSLATIONS = {
     llm: {
       title: "LLM Preference",
       description:
-        "AnythingLLM can work with many LLM providers. This will be the service which handles chatting.",
+        "Tuxi can work with many LLM providers. This will be the service which handles chatting.",
     },
     userSetup: {
       title: "User Setup",
@@ -37,15 +37,15 @@ const TRANSLATIONS = {
         "These settings can be reconfigured at any time in the settings.",
     },
     survey: {
-      title: "Welcome to AnythingLLM",
-      description: "Help us make AnythingLLM built for your needs. Optional.",
+      title: "Welcome to Tuxi",
+      description: "Help us make Tuxi built for your needs. Optional.",
 
       email: "What's your email?",
-      useCase: "What will you use AnythingLLM for?",
+      useCase: "What will you use Tuxi for?",
       useCaseWork: "For work",
       useCasePersonal: "For personal use",
       useCaseOther: "Other",
-      comment: "How did you hear about AnythingLLM?",
+      comment: "How did you hear about Tuxi?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube, etc. - Let us know how you found us!",
       skip: "Skip Survey",
@@ -54,7 +54,7 @@ const TRANSLATIONS = {
     workspace: {
       title: "Create your first workspace",
       description:
-        "Create your first workspace and get started with AnythingLLM.",
+        "Create your first workspace and get started with Tuxi.",
     },
   },
   common: {
@@ -133,12 +133,11 @@ const TRANSLATIONS = {
 
   welcomeMessage: {
     part1:
-      "Welcome to AnythingLLM, AnythingLLM is an open-source AI tool by Mintplex Labs that turns anything into a trained chatbot you can query and chat with. AnythingLLM is a BYOK (bring-your-own-keys) software so there is no subscription, fee, or charges for this software outside of the services you want to use with it.",
+      "Welcome to Tuxi!",
     part2:
-      "AnythingLLM is the easiest way to put powerful AI products like OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB, and other services together in a neat package with no fuss to increase your productivity by 100x.",
+      "Tuxi is the easiest way to put powerful AI products like OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB, and other services together in a neat package with no fuss to increase your productivity by 100x.",
     part3:
-      "AnythingLLM can run totally locally on your machine with little overhead you wont even notice it's there! No GPU needed. Cloud and on-premises installation is available as well.\nThe AI tooling ecosystem gets more powerful everyday. AnythingLLM makes it easy to use.",
-    githubIssue: "Create an issue on GitHub",
+      "Tuxi runs in a dedicated secure environment, we value your privacy and security. We do not collect any data from you or your workspaces. All data is stored locally on your machine or in your cloud provider of choice.",
     user1: "How do I get started?!",
     part4:
       "It's simple. All collections are organized into buckets we call \"Workspaces\". Workspaces are buckets of files, documents, images, PDFs, and other files which will be transformed into something LLM's can understand and use in conversation.\n\nYou can add and remove files at anytime.",
@@ -146,11 +145,10 @@ const TRANSLATIONS = {
     user2:
       "Is this like an AI dropbox or something? What about chatting? It is a chatbot isn't it?",
     part5:
-      "AnythingLLM is more than a smarter Dropbox.\n\nAnythingLLM offers two ways of talking with your data:\n\n<i>Query:</i> Your chats will return data or inferences found with the documents in your workspace it has access to. Adding more documents to the Workspace make it smarter! \n\n<i>Conversational:</i> Your documents + your on-going chat history both contribute to the LLM knowledge at the same time. Great for appending real-time text-based info or corrections and misunderstandings the LLM might have. \n\nYou can toggle between either mode \n<i>in the middle of chatting!</i>",
+      "Tuxi is more than a smarter Dropbox.\n\nTuxi offers two ways of talking with your data:\n\n<i>Query:</i> Your chats will return data or inferences found with the documents in your workspace it has access to. Adding more documents to the Workspace make it smarter! \n\n<i>Conversational:</i> Your documents + your on-going chat history both contribute to the LLM knowledge at the same time. Great for appending real-time text-based info or corrections and misunderstandings the LLM might have. \n\nYou can toggle between either mode \n<i>in the middle of chatting!</i>",
     user3: "Wow, this sounds amazing, let me try it out already!",
     part6: "Have Fun!",
-    starOnGitHub: "Star on GitHub",
-    contact: "Contact Mintplex Labs",
+    contact: "Contact Tuxi",
   },
 
   "main-page": {
@@ -158,7 +156,7 @@ const TRANSLATIONS = {
     checklist: {
       title: "Getting Started",
       tasksLeft: "tasks left",
-      completed: "You're on your way to becoming an AnythingLLM expert!",
+      completed: "You're on your way to becoming a Tuxi expert!",
       dismiss: "close",
       tasks: {
         create_workspace: {
@@ -267,7 +265,7 @@ const TRANSLATIONS = {
       add: "Add new message",
       save: "Save Messages",
       heading: "Explain to me",
-      body: "the benefits of AnythingLLM",
+      body: "the benefits of Tuxi",
     },
     pfp: {
       title: "Assistant Profile Image",
@@ -465,16 +463,16 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "UI Preferences",
-      description: "Set your UI preferences for AnythingLLM.",
+      description: "Set your UI preferences for Tuxi.",
     },
     branding: {
       title: "Branding & Whitelabeling",
       description:
-        "White-label your AnythingLLM instance with custom branding.",
+        "White-label your Tuxi instance with custom branding.",
     },
     chat: {
       title: "Chat",
-      description: "Set your chat preferences for AnythingLLM.",
+      description: "Set your chat preferences for Tuxi.",
       auto_submit: {
         title: "Auto-Submit Speech Input",
         description:
@@ -516,7 +514,7 @@ const TRANSLATIONS = {
       "display-language": {
         title: "Display Language",
         description:
-          "Select the preferred language to render AnythingLLM's UI in - when translations are available.",
+          "Select the preferred language to render Tuxi's UI in - when translations are available.",
       },
       logo: {
         title: "Brand Logo",
@@ -534,7 +532,7 @@ const TRANSLATIONS = {
         system: "system",
         user: "user",
         message: "message",
-        assistant: "AnythingLLM Chat Assistant",
+        assistant: "Tuxi Chat Assistant",
         "double-click": "Double click to edit...",
         save: "Save Messages",
       },
@@ -566,7 +564,7 @@ const TRANSLATIONS = {
   api: {
     title: "API Keys",
     description:
-      "API keys allow the holder to programmatically access and manage this AnythingLLM instance.",
+      "API keys allow the holder to programmatically access and manage this Tuxi instance.",
     link: "Read the API documentation",
     generate: "Generate New API Key",
     table: {
@@ -579,7 +577,7 @@ const TRANSLATIONS = {
   llm: {
     title: "LLM Preference",
     description:
-      "These are the credentials and settings for your preferred LLM chat & embedding provider. It is important that these keys are current and correct, or else AnythingLLM will not function properly.",
+      "These are the credentials and settings for your preferred LLM chat & embedding provider. It is important that these keys are current and correct, or else Tuxi will not function properly.",
     provider: "LLM Provider",
   },
 
@@ -589,7 +587,7 @@ const TRANSLATIONS = {
       "These are the credentials and settings for your preferred transcription model provider. Its important these keys are current and correct or else media files and audio will not transcribe.",
     provider: "Transcription Provider",
     "warn-start":
-      "Using the local whisper model on machines with limited RAM or CPU can stall AnythingLLM when processing media files.",
+      "Using the local whisper model on machines with limited RAM or CPU can stall Tuxi when processing media files.",
     "warn-recommend":
       "We recommend at least 2GB of RAM and upload files <10Mb.",
     "warn-end":
@@ -601,11 +599,11 @@ const TRANSLATIONS = {
     "desc-start":
       "When using an LLM that does not natively support an embedding engine - you may need to additionally specify credentials to for embedding text.",
     "desc-end":
-      "Embedding is the process of turning text into vectors. These credentials are required to turn your files and prompts into a format which AnythingLLM can use to process.",
+      "Embedding is the process of turning text into vectors. These credentials are required to turn your files and prompts into a format which Tuxi can use to process.",
     provider: {
       title: "Embedding Provider",
       description:
-        "There is no set up required when using AnythingLLM's native embedding engine.",
+        "There is no set up required when using Tuxi's native embedding engine.",
     },
   },
 
@@ -636,7 +634,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vector Database",
     description:
-      "These are the credentials and settings for how your AnythingLLM instance will function. It's important these keys are current and correct.",
+      "These are the credentials and settings for how your Tuxi instance will function. It's important these keys are current and correct.",
     provider: {
       title: "Vector Database Provider",
       description: "There is no configuration needed for LanceDB.",
@@ -685,7 +683,7 @@ const TRANSLATIONS = {
     password: {
       title: "Password Protection",
       description:
-        "Protect your AnythingLLM instance with a password. If you forget this there is no recovery method so ensure you save this password.",
+        "Protect your Tuxi instance with a password. If you forget this there is no recovery method so ensure you save this password.",
     },
     instance: {
       title: "Password Protect Instance",
@@ -712,7 +710,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacy & Data-Handling",
     description:
-      "This is your configuration for how connected third party providers and AnythingLLM handle your data.",
+      "This is your configuration for how connected third party providers and Tuxi handle your data.",
     llm: "LLM Selection",
     embedding: "Embedding Preference",
     vector: "Vector Database",
@@ -894,22 +892,22 @@ const TRANSLATIONS = {
       fetching: "Fetching...",
       "fetch-website": "Fetch website",
       "privacy-notice":
-        "These files will be uploaded to the document processor running on this AnythingLLM instance. These files are not sent or shared with a third party.",
+        "These files will be uploaded to the document processor running on this Tuxi instance. These files are not sent or shared with a third party.",
     },
     pinning: {
       what_pinning: "What is document pinning?",
       pin_explained_block1:
-        "When you <b>pin</b> a document in AnythingLLM we will inject the entire content of the document into your prompt window for your LLM to fully comprehend.",
+        "When you <b>pin</b> a document in Tuxi we will inject the entire content of the document into your prompt window for your LLM to fully comprehend.",
       pin_explained_block2:
         "This works best with <b>large-context models</b> or small files that are critical to its knowledge-base.",
       pin_explained_block3:
-        "If you are not getting the answers you desire from AnythingLLM by default then pinning is a great way to get higher quality answers in a click.",
+        "If you are not getting the answers you desire from Tuxi by default then pinning is a great way to get higher quality answers in a click.",
       accept: "Okay, got it",
     },
     watching: {
       what_watching: "What does watching a document do?",
       watch_explained_block1:
-        "When you <b>watch</b> a document in AnythingLLM we will <i>automatically</i> sync your document content from it's original source on regular intervals. This will automatically update the content in every workspace where this file is managed.",
+        "When you <b>watch</b> a document in Tuxi we will <i>automatically</i> sync your document content from it's original source on regular intervals. This will automatically update the content in every workspace where this file is managed.",
       watch_explained_block2:
         "This feature currently supports online-based content and will not be available for manually uploaded documents.",
       watch_explained_block3_start:
